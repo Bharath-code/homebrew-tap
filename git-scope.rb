@@ -5,21 +5,21 @@
 class GitScope < Formula
   desc "A fast TUI to see the status of all git repositories"
   homepage "https://github.com/Bharath-code/git-scope"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Bharath-code/git-scope/releases/download/v0.1.2/git-scope_0.1.2_darwin_amd64.tar.gz"
-      sha256 "5bcf51a46c6b6545a12ae57dfaaf4514ea9af13b8ff2af6a994c95e56998fff2"
+      url "https://github.com/Bharath-code/git-scope/releases/download/v0.1.3/git-scope_0.1.3_darwin_amd64.tar.gz"
+      sha256 "ccfc031219bc7f55ca212ba1191a157fc6fdc63ab4066a33ad46ef6a6112c445"
 
       def install
         bin.install "git-scope"
       end
     end
     on_arm do
-      url "https://github.com/Bharath-code/git-scope/releases/download/v0.1.2/git-scope_0.1.2_darwin_arm64.tar.gz"
-      sha256 "f785142916fbe7072cc7c4e03051cf4fcf21fb34dd3c2e9c5f2d0f149d35e5b8"
+      url "https://github.com/Bharath-code/git-scope/releases/download/v0.1.3/git-scope_0.1.3_darwin_arm64.tar.gz"
+      sha256 "6e071e8e73d64630397332a0dd94c805af26d31ca420a6716d135bdf939424f8"
 
       def install
         bin.install "git-scope"
@@ -30,8 +30,8 @@ class GitScope < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Bharath-code/git-scope/releases/download/v0.1.2/git-scope_0.1.2_linux_amd64.tar.gz"
-        sha256 "49a850ff900008f9b2fda34ce1901b0dd262000ed1c8d10f512d50f760c8d2c5"
+        url "https://github.com/Bharath-code/git-scope/releases/download/v0.1.3/git-scope_0.1.3_linux_amd64.tar.gz"
+        sha256 "fead930481a4a6ce112cfa9e9958688ebbfc12d6288c3fc2ac3cb0038c8792c5"
 
         def install
           bin.install "git-scope"
@@ -40,8 +40,8 @@ class GitScope < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Bharath-code/git-scope/releases/download/v0.1.2/git-scope_0.1.2_linux_arm64.tar.gz"
-        sha256 "68e0ddc162153932173b6ec83a387af3f4b887d44eb6e2290b990da71c321428"
+        url "https://github.com/Bharath-code/git-scope/releases/download/v0.1.3/git-scope_0.1.3_linux_arm64.tar.gz"
+        sha256 "1b61891575f9566e44c660f960051da2b27308f57ee15a49d14d3ac299f24633"
 
         def install
           bin.install "git-scope"
